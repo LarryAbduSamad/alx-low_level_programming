@@ -2,7 +2,8 @@
 
 /**
 * main - print a string with the puts function
-* Return: zero on success
+*
+* Return: Always 0 (Success)
 */
 
 int main(void)
