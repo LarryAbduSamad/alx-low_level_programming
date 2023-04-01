@@ -1,15 +1,17 @@
 #include "main.h"
 
 /**
- * _strcat - concatenate 2 strings
- * @dest:char
- * @src:char
- * Return:char
- */
+* _strcat - concatenate 2 strings
+* @dest:char
+* @src:char
+*
+* Return: char
+*/
 
 char *_strcat(char *dest, char *src)
 
 {
+
 	char *s = dest;
 
 	while (*dest != '\0')
@@ -27,4 +29,5 @@ char *_strcat(char *dest, char *src)
 	*dest = '\0';
 
 	return (s);
+
 }
